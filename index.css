@@ -1,0 +1,181 @@
+.logo{
+  height: 100px;
+  width: 100px;
+}
+
+.title{
+  font-size: 80px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  text-align: center;
+  margin-top: auto;
+}
+
+.header{
+  margin-top: 10px;
+  margin-left:auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  box-shadow: 10px 10px 5px aqua;
+}
+
+body{
+  background-color: rgb(30, 41, 41);
+}
+.plus{
+  margin-top: 10px;
+  height: 100px;
+  width: 100px;
+}
+.cross{
+  height: 100px;
+  width: 100px;
+  transform: rotate(45deg);
+  
+}
+
+#cross{
+  position: absolute;
+  z-index: -1;
+}
+.menu{
+  height: 100px;
+  width: 100px;
+  background-color: rgb(93, 180, 214);
+  padding-top: 9px;
+}
+
+.lines{
+  width: 60px;
+  height: 14px;
+  margin: 10px 20px;
+  background-color: white;
+  border-radius: 6px;
+}
+.select{
+  margin-top: 20px;
+  font-size:40px;
+}
+select{
+
+  width: 500px;
+  height: 60px;
+  border-style: outset;
+  border-width: 8px;
+  border-color: aqua;
+  
+}
+
+option{
+  font-size: 40px;
+  background-color: aqua;
+}
+option:hover{
+  background-color: blue;
+  color: aliceblue;
+}
+
+.list{
+  padding-top: 20px;
+  padding-left: 100px;
+}
+button{
+  color: white;
+  background-color: black;
+  height: 110px;
+  width: 1600px;
+  border-radius: 9px;
+  margin-bottom: 10px;
+}
+button:hover{
+  box-shadow: 10px 10px 5px aqua;
+  border-radius: 9px;
+  height: 120px;
+  color: aqua;
+
+}
+
+.sidebar {
+  margin-top: 110px;
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: aqua;
+}
+
+
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+#navbars{
+  padding-bottom: 10px;
+  border-radius: 9px;
+  border-color: #111;
+  border-width: 5px;
+}
+
+.top{
+  font-size: 36px;
+  color: white;
+}
+
+.fa-file-pdf-o{
+  position: absolute;
+  top:20px;
+  left: 10px;
+}
+
+.text{
+  position: absolute;
+  top: 20px;
+  font-size: 30px;
+  left: 50px;
+}
+.fa-download{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: aqua;
+}
+
+.downloads{
+  position: absolute;
+  bottom: 15px;
+  right: 65px;
+  font-size: 30px;
+}
+.date{
+  position: absolute;
+  top: 60px;
+  font-size: 20px;
+  left: 50px;
+}
+
+.title:hover{
+  color: aqua;
+}
+
